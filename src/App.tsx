@@ -1,14 +1,11 @@
-import * as React from 'react'
+import React from 'react'
 import { Banner } from './components/Banner/Banner'
-import { Container } from '@mui/material'
+import './index.css';
 
 function App() {
-
   return (
     <React.Fragment>
-      <Container>
-        <Banner />
-      </Container>
+      <Banner />
     </React.Fragment>
   )
 }
