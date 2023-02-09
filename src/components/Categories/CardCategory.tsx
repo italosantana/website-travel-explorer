@@ -13,8 +13,7 @@ export const CardCategories = ({ image, title }: props) => {
             flexDirection: "column",
             justifyContent: 'center',
             alignItems: 'center',
-            // mr: '30px',
-            m: 1,
+            m: 2,
         }}
         >
             <img width={170} height={230}src={image} alt="a picture showing one place" />

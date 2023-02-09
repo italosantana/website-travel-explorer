@@ -18,7 +18,7 @@ export const Categories = () => {
                 <Title>Categories</Title>
                 <Description>Here are lots of interesting destinations to visit, but don’t be confused—they’re already grouped by category.</Description>
                 
-                <Box>
+                <Box sx={{ display: 'flex', flex: 1 }}>
                 <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
                 <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
                 <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
