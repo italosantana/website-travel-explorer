@@ -20,11 +20,11 @@ export const Categories = () => {
                 
                 <Box sx={{ display: 'flex', flex: 1 }}>
                 <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
-                <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
-                <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
-                <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
-                <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
-                <CardCategories image="../../../src/assets/Beach.png" title="Beach"/>
+                <CardCategories image="../../../src/assets/Desert.png" title="Desert"/>
+                <CardCategories image="../../../src/assets/Mountain.png" title="Mountain"/>
+                <CardCategories image="../../../src/assets/Temple.png" title="Temple"/>
+                <CardCategories image="../../../src/assets/Tower.png" title="Tower"/>
+                <CardCategories image="../../../src/assets/Pyramid.png" title="Pyramid"/>
                 </Box>
             </Box>
         </Container>
