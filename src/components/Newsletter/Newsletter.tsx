@@ -1,7 +1,5 @@
-import { Box, Container, Typography } from "@mui/material"
+import { Box, Container, IconButton, InputAdornment, OutlinedInput, Typography } from "@mui/material"
 import Intersect from '../../assets/Intersect.png'
-import { Title } from "../Title/Title"
-import { Description } from '../Description/Description';
 
 const CardCentralNewsletter = () => {
     return (
@@ -34,6 +32,24 @@ const CardCentralNewsletter = () => {
                     fontSize: '16px'
                 }}
             >Reciev latest news, update, and many other things every week. </Typography>
+
+            <OutlinedInput
+                id="outlined-adornment-password"
+                sx={{
+                    mt: '40px'
+                }}
+                placeholder="Enter your email address"
+                endAdornment={
+                    <InputAdornment position="end">
+                        <IconButton
+                            aria-label="toggle password visibility"
+                            edge="end"
+                        >
+                        </IconButton>
+                    </InputAdornment>
+                }
+                label="Password"
+            />
         </Box>
     )
 }
@@ -46,6 +62,8 @@ export const Newsletter = () => {
                     display: 'flex',
                     justifyContent: 'center',
                     height: '450px',
+                    maxWidth: "100%",
+                    width: "1440px",
                 }}
             >
                 <CardCentralNewsletter />
