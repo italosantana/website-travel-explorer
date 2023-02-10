@@ -3,12 +3,14 @@ import { Banner } from './components/Banner/Banner'
 import './index.css';
 import { Categories } from './components/Categories/Categories';
 import { Newsletter } from './components/Newsletter/Newsletter';
+import { Termonial } from './components/Testimonial/Testimonial';
 
 function App() {
   return (
     <React.Fragment>
       <Banner />
       <Categories />
+      <Termonial/>
       <Newsletter />
     </React.Fragment>
   )
