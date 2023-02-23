@@ -12,8 +12,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <React.Fragment>
-        {/* <Banner /> */}
-        {/* <Categories /> */}
+        <Banner />
+        <Categories />
         <Testimonial />
         <Newsletter />
         <Footer />
