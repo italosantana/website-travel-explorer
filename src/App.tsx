@@ -12,10 +12,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <React.Fragment>
-        <Banner />
-        <Categories />
-        <Termonial />
-        <Newsletter />
+        {/* <Banner /> */}
+        {/* <Categories /> */}
+        {/* <Termonial /> */}
+        {/* <Newsletter /> */}
         <Footer />
       </React.Fragment>
     </ThemeProvider>
