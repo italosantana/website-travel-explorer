@@ -33,7 +33,7 @@ let theme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'Roboto',
+    fontFamily: 'Inter',
   },
   breakpoints: {
     values: {

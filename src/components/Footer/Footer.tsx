@@ -1,4 +1,5 @@
 import { Box, Container, Typography } from "@mui/material"
+import theme from "../../styles/theme";
 
 type FooterProps = {
     title: string;
@@ -35,6 +36,9 @@ const FooterItem = ({ title, children }: FooterProps) => {
                 width: "150px",
                 a: {
                     textDecoration: 'transparent',
+                },
+                [theme.breakpoints.down('tablet')]:{
+                    mt: '20px',
                 }
             }}
         >

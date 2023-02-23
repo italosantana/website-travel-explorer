@@ -3,7 +3,7 @@ import { Banner } from './components/Banner/Banner'
 import './index.css';
 import { Categories } from './components/Categories/Categories';
 import { Newsletter } from './components/Newsletter/Newsletter';
-import { Termonial } from './components/Testimonial/Testimonial';
+import { Testimonial } from './components/Testimonial/Testimonial';
 import { Footer } from './components/Footer/Footer';
 import { ThemeProvider } from '@mui/material';
 import theme from './styles/theme';
@@ -14,7 +14,7 @@ function App() {
       <React.Fragment>
         <Banner />
         <Categories />
-        <Termonial />
+        <Testimonial />
         <Newsletter />
         <Footer />
       </React.Fragment>
