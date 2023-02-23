@@ -1,4 +1,4 @@
-import { Box, Container, IconButton, InputAdornment, OutlinedInput, Typography } from "@mui/material"
+import { Box, IconButton, InputAdornment, OutlinedInput, Typography } from "@mui/material"
 import Intersect from '../../assets/Intersect.png'
 import theme from "../../styles/theme"
 
@@ -60,7 +60,6 @@ const CardCentralNewsletter = () => {
 
 export const Newsletter = () => {
     return (
-        <Container>
             <Box
                 sx={{
                     display: 'flex',
@@ -72,6 +71,5 @@ export const Newsletter = () => {
             >
                 <CardCentralNewsletter />
             </Box>
-        </Container>
     )
 }

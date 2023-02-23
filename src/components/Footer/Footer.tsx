@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import theme from "../../styles/theme";
 
 type FooterProps = {
@@ -59,7 +59,6 @@ const FooterItem = ({ title, children }: FooterProps) => {
 
 export const Footer = () => {
     return (
-        <Container>
             <Box
                 sx={{
                     display: 'flex',
@@ -134,6 +133,5 @@ export const Footer = () => {
                     </FooterItem>
                 </Box>
             </Box>
-        </Container>
     )
 }
