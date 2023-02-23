@@ -6,11 +6,13 @@ import { Testimonial } from './components/Testimonial/Testimonial';
 import { Footer } from './components/Footer/Footer';
 import { Container, ThemeProvider } from '@mui/material';
 import theme from './styles/theme';
+import { ResponsiveAppBar } from './components/Menu/Menu';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <Container>
+        <ResponsiveAppBar />
         <Banner />
         <Categories />
         <Testimonial />
