@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material"
+import { Box } from "@mui/material"
 import { Title } from "../Title/Title"
 import { Description } from "../Description/Description"
 import theme from "../../styles/theme"
@@ -6,7 +6,6 @@ import theme from "../../styles/theme"
 
 export const Banner = () => {
     return (
-        <Container>
             <Box
                 sx={{
                     display: "flex",
@@ -49,6 +48,5 @@ export const Banner = () => {
                     }}
                 />
             </Box>
-        </Container>
     )
 }

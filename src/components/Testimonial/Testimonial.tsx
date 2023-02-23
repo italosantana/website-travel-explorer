@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import theme from "../../styles/theme"
 
 
@@ -66,7 +66,6 @@ const CardUserTestimonial = () => {
 
 export const Testimonial = () => {
     return (
-        <Container>
             <Box
                 sx={{
                     display: 'flex',
@@ -129,6 +128,5 @@ export const Testimonial = () => {
                     <CardUserTestimonial />
                 </Box>
             </Box>
-        </Container >
     )
 }

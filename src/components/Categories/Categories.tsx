@@ -1,4 +1,4 @@
-import { Box, Container, Stack } from "@mui/material"
+import { Box } from "@mui/material"
 import { Title } from "../Title/Title"
 import { Description } from "../Description/Description"
 import { CardCategories } from "./CardCategory"
@@ -72,7 +72,6 @@ export const Categories = () => {
     };
 
     return (
-        <Container>
             <Box
                 sx={{
                     height: '542px',
@@ -96,6 +95,5 @@ export const Categories = () => {
                     </Slider>
                 </Box>
             </Box>
-        </Container >
     )
 }
