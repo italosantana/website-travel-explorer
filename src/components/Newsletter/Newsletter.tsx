@@ -1,5 +1,6 @@
 import { Box, Container, IconButton, InputAdornment, OutlinedInput, Typography } from "@mui/material"
 import Intersect from '../../assets/Intersect.png'
+import theme from "../../styles/theme"
 
 const CardCentralNewsletter = () => {
     return (
@@ -13,7 +14,10 @@ const CardCentralNewsletter = () => {
                 height: '358px',
                 width: "1170px",
                 alignItems: 'center',
-                borderRadius: '30px'
+                borderRadius: '30px',
+                [theme.breakpoints.down('mobile')]:{
+                 textAlign: 'center',
+                }
             }}
         >
             <Typography
