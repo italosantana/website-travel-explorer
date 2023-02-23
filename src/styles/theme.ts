@@ -29,7 +29,7 @@ let theme = createTheme({
       main: red.A400,
     },
     background: {
-      default: '#F5F5F5',
+      default: '#FAF8ED',
     },
   },
   typography: {
