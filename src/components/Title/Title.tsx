@@ -4,9 +4,10 @@ import theme from "../../styles/theme";
 
 type Props = {
     children: React.ReactNode;
+    sx?: any;
 }
 
-export const Title = ({ children }: Props) => {
+export const Title = ({ children, sx }: Props) => {
     return (
         <Typography
             sx={{
@@ -20,6 +21,7 @@ export const Title = ({ children }: Props) => {
                 [theme.breakpoints.down('mobile')]: {
                     fontSize: "42px",
                 },
+                ...sx
             }}
         >
             {children}

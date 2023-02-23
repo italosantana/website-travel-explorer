@@ -7,6 +7,7 @@ import { Footer } from './components/Footer/Footer';
 import { Container, ThemeProvider } from '@mui/material';
 import theme from './styles/theme';
 import { ResponsiveAppBar } from './components/Menu/Menu';
+import { Experiences } from './components/Experiences/Experiences';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ResponsiveAppBar />
         <Banner />
         <Categories />
+        <Experiences />
         <Testimonial />
         <Newsletter />
         <Footer />
