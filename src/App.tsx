@@ -8,6 +8,7 @@ import { Container, ThemeProvider } from '@mui/material';
 import theme from './styles/theme';
 import { ResponsiveAppBar } from './components/Menu/Menu';
 import { Experiences } from './components/Experiences/Experiences';
+import { PopularDestination } from './components/Destinations/PopularDestination';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Banner />
         <Categories />
         <Experiences />
+        <PopularDestination />
         <Testimonial />
         <Newsletter />
         <Footer />
