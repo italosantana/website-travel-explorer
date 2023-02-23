@@ -75,13 +75,12 @@ export const Testimonial = () => {
                     width: "1440px",
                     maxWidth: "100%",
                     justifyContent: 'space-between',
-                    [theme.breakpoints.down('tablet')]:{
+                    [theme.breakpoints.down('tablet')]: {
                         height: "100%",
                         m: "20px 0px 20px 0px",
                     }
                 }}
             >
-
                 <Box
                     sx={{
                         transform: "matrix(-1, 0, 0, 1, 0, 0)",
@@ -92,13 +91,25 @@ export const Testimonial = () => {
                         img: {
                             borderRadius: '245px',
                         },
-                        [theme.breakpoints.down('desktop')]: {
-                            display: 'none',
+                        
+                        opacity: 0.09,
+                        zIndex: 0,
+                        [theme.breakpoints.down('laptop')]:{
+                            position: 'absolute',
+                            opacity: 0.09,
+                            zIndex: 0,
+                            height: '539px',
+                        },
+                        [theme.breakpoints.up('desktop')]: {
+                            display: 'block',
+                            height: '539px',
+                            opacity: 1,
                         },
                     }}
                 >
-                    <img src="../../../src/assets/client.png" alt="showing a client take a picture" />
+                    <img src="../../../src/assets/client.png" />
                 </Box>
+
                 <Box
                     sx={{
                         display: 'flex',
@@ -118,6 +129,6 @@ export const Testimonial = () => {
                     <CardUserTestimonial />
                 </Box>
             </Box>
-        </Container>
+        </Container >
     )
 }
